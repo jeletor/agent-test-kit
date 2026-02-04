@@ -1,0 +1,42 @@
+{
+  "name": "agent-test-kit",
+  "version": "0.1.0",
+  "description": "Mock Nostr relays and Lightning wallets for testing AI agent infrastructure. In-memory, deterministic, fast.",
+  "main": "src/index.cjs",
+  "types": "src/index.d.cts",
+  "scripts": {
+    "test": "node --test test/*.test.cjs"
+  },
+  "keywords": [
+    "nostr",
+    "lightning",
+    "testing",
+    "mock",
+    "relay",
+    "wallet",
+    "ai",
+    "agent",
+    "test",
+    "harness",
+    "dvm",
+    "l402",
+    "ai-wot"
+  ],
+  "author": "Jeletor <jeletor@jeletor.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeletor/agent-test-kit.git"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
